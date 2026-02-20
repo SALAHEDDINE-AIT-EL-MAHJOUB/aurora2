@@ -321,7 +321,12 @@
         <a href="BESOIN_DAIDE/conditions-generales-vente.html" class="hover:underline">Livraison</a>
       </nav>
       <div class="flex items-center space-x-4">
-        <button id="open-pack-btn" class="ghost-btn">Composer un pack</button>
+        <!-- Desktop: Text button -->
+        <button id="open-pack-btn" class="ghost-btn hidden sm:flex">Composer un pack</button>
+        <!-- Mobile: Clickable animation -->
+        <div id="pack-animation-btn" class="flex sm:hidden items-center justify-center cursor-pointer" style="width: 48px; height: 48px;">
+          <div id="pack-lottie" style="width: 100%; height: 100%;"></div>
+        </div>
         <div class="hidden sm:flex items-center space-x-3">
           <button aria-label="Recherche">
             <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
@@ -576,6 +581,43 @@
   <script src="https://www.gstatic.com/firebasejs/compat/8.10.1/firebase-firestore-compat.js"></script>
   
   <script src="../backend/shop.js"></script>
+  
+  <!-- Pack animation button initialization -->
+  <script>
+    (function() {
+      // Load box.json animation for mobile pack button
+      const packLottieContainer = document.getElementById('pack-lottie');
+      const packAnimationBtn = document.getElementById('pack-animation-btn');
+      const desktopButton = document.getElementById('open-pack-btn');
+      
+      if (packLottieContainer && window.lottie) {
+        // Fetch and load the box animation
+        fetch('../assets/box.json')
+          .then(response => response.json())
+          .then(animationData => {
+            const packLottieInstance = window.lottie.loadAnimation({
+              container: packLottieContainer,
+              renderer: 'svg',
+              loop: true,
+              autoplay: true,
+              animationData: animationData
+            });
+            
+            // Make the animation clickable to trigger the pack modal
+            if (packAnimationBtn) {
+              packAnimationBtn.addEventListener('click', function() {
+                const openPackBtn = document.getElementById('open-pack-btn');
+                if (openPackBtn && typeof openPackBtn.click === 'function') {
+                  openPackBtn.click();
+                }
+              });
+            }
+          })
+          .catch(err => console.warn('Failed to load pack animation:', err));
+      }
+    })();
+  </script>
+  
   <script>
     // Set current year
     try { document.getElementById('year').textContent = new Date().getFullYear(); } catch(e){}

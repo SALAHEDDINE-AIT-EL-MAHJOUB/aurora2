@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title> Conditions d'acheminement</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ivory:#f9f7f4;
+      --porcelain:#ffffff;
+      --ink:#111111;
+      --sand:#e7e1d7;
+      --mist:#f2efea;
+      --stone:#c8c1b7;
+    }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body {
+      font-family:"Montserrat","Helvetica Neue",Arial,sans-serif;
+      background:var(--ivory);
+      color:var(--ink);
+      line-height:1.6;
+      min-height:100vh;
+    }
+    .font-serif { font-family:"Playfair Display","Times New Roman",serif; }
+    .announcement {
+      background:var(--porcelain);
+      text-align:center;
+      font-size:.7rem;
+      letter-spacing:.35em;
+      text-transform:uppercase;
+      padding:.65rem 1rem;
+      border-bottom:1px solid var(--sand);
+    }
+    header {
+      background:var(--porcelain);
+      border-bottom:1px solid var(--sand);
+      position:sticky;
+      top:0;
+      z-index:20;
+    }
+    .container { max-width:960px; margin:0 auto; padding:0 1.5rem; }
+    .nav-bar { display:flex; align-items:center; justify-content:space-between; padding:1.5rem 0; gap:1.5rem; }
+    .logo { display:flex; flex-direction:column; text-transform:uppercase; letter-spacing:.3em; font-size:.7rem; }
+    .logo-main { font-family:"Playfair Display","Times New Roman",serif; font-size:1.5rem; letter-spacing:.1em; text-transform:none; }
+    nav ul { list-style:none; display:flex; flex-wrap:wrap; gap:.5rem; font-size:.75rem; letter-spacing:.2em; text-transform:uppercase; }
+    nav a {
+      text-decoration:none;
+      color:var(--ink);
+      padding:.4rem .75rem;
+      border-radius:999px;
+      border:1px solid transparent;
+      transition:all .3s ease;
+    }
+    nav a:hover, nav a.active {
+      border-color:var(--ink);
+      background:var(--ink);
+      color:var(--porcelain);
+    }
+    main { padding:2.5rem 0 4rem; }
+    section {
+      background:var(--porcelain);
+      border-radius:1rem;
+      border:1px solid var(--sand);
+      padding:2rem;
+      margin-bottom:1.5rem;
+    }
+    h1 { font-family:"Playfair Display","Times New Roman",serif; font-size:2rem; margin-bottom:1.25rem; }
+    p { margin-bottom:.75rem; font-size:.95rem; color:#2c2c2c; }
+    .subtle { font-size:.9rem; color:#6b6b6b; }
+    @media (max-width:640px){ .nav-bar{flex-direction:column; align-items:flex-start;} nav ul{justify-content:flex-start;} }
+  </style>
+</head>
+<body>
+  <div class="announcement">Livraison offerte au Maroc des 500 DH</div>
+  <header>
+    <div class="container nav-bar">
+      <div class="logo">
+        <span>Maison</span>
+        <span class="logo-main">AURORA</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="faq.html">FAQs</a></li>
+          <li><a href="conditions-generales-vente.html">Conditions generales de vente</a></li>
+          <li><a href="politique-confidentialite.html">Politique de confidentialite</a></li>
+          <li><a href="conditions-acheminement.html" class="active">Conditions d'acheminement</a></li>
+          <li><a href="conditions-utilisation.html">Conditions d'utilisation</a></li>
+          <li><a href="mentions-legales.html">Mentions legales</a></li>
+          <li><a href="contact.html">Contactez-nous</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h1>Conditions d'Acheminement</h1>
+      <p class="subtle">
+        Contenu à compléter : détails sur l’expédition, les transporteurs, les délais, les zones desservies,
+        les frais d’acheminement, la gestion des colis perdus ou endommagés, ainsi que les responsabilités
+        respectives de Aurora , du transporteur et du client.
+      </p>
+    </section>
+  </main>
+</body>
+</html>

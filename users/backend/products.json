@@ -26,7 +26,7 @@
         "Casablanca": 5,
         "Rabat": 7,
         "Marrakech": 6,
-        "FÃ¨s": 9,
+        "FÃƒÂ¨s": 9,
         "Tangier": 56
       },
       "expiryDate": "2026-02-28T00:00:00.000Z",
@@ -40,8 +40,8 @@
       "price": 123,
       "description": "",
       "promo": {
-        "type": "none",
-        "value": null
+        "type": "percent",
+        "value": 8
       },
       "stock": 12,
       "unit": "piece",
@@ -61,13 +61,13 @@
         "Casablanca": 5,
         "Rabat": 7,
         "Marrakech": 6,
-        "F�s": 22,
+        "F�s": 0,
         "Tangier": 56
       },
       "expiryDate": "2026-02-28T00:00:00.000Z",
       "expired": false,
       "imageUrl": "",
-      "createdAt": "2026-02-21T15:27:30.626Z",
+      "createdAt": "2026-02-21T15:28:44.990Z",
       "id": "prod_1771687169357_y3epl3daf"
     }
   ]

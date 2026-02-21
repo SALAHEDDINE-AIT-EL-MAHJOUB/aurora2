@@ -26,7 +26,7 @@
         "Casablanca": 5,
         "Rabat": 7,
         "Marrakech": 6,
-        "FÃƒÂ¨s": 9,
+        "FÃƒÆ’Ã‚Â¨s": 9,
         "Tangier": 56
       },
       "expiryDate": "2026-02-28T00:00:00.000Z",
@@ -61,13 +61,13 @@
         "Casablanca": 5,
         "Rabat": 7,
         "Marrakech": 6,
-        "F�s": 0,
+        "F�s": 77,
         "Tangier": 56
       },
       "expiryDate": "2026-02-28T00:00:00.000Z",
       "expired": false,
-      "imageUrl": "",
-      "createdAt": "2026-02-21T15:28:44.990Z",
+      "imageUrl": "https://img.freepik.com/premium-photo/bottle-perfume-with-gold-top-that-says-perfume_917213-131225.jpg",
+      "createdAt": "2026-02-21T15:30:32.042Z",
       "id": "prod_1771687169357_y3epl3daf"
     }
   ]

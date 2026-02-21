@@ -26,7 +26,7 @@
         "Casablanca": 5,
         "Rabat": 7,
         "Marrakech": 6,
-        "FÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¨s": 9,
+        "FÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨s": 9,
         "Tangier": 56
       },
       "expiryDate": "2026-02-28T00:00:00.000Z",
@@ -61,7 +61,7 @@
         "Casablanca": 5,
         "Rabat": 7,
         "Marrakech": 6,
-        "F�s": 78,
+        "Fès": 78,
         "Tangier": 56
       },
       "expiryDate": "2026-02-28T00:00:00.000Z",
@@ -69,6 +69,30 @@
       "imageUrl": "https://img.freepik.com/premium-photo/bottle-perfume-with-gold-top-that-says-perfume_917213-131225.jpg",
       "createdAt": "2026-02-21T15:33:18.679Z",
       "id": "prod_1771687169357_y3epl3daf"
+    },
+    {
+      "name": "parfun",
+      "price": 23,
+      "description": "",
+      "promo": {
+        "type": "special",
+        "value": 8
+      },
+      "stock": 1,
+      "unit": "piece",
+      "variants": [],
+      "deliveryPrices": {
+        "Casablanca": 5,
+        "Rabat": 7,
+        "Marrakech": 6,
+        "F�s": 78,
+        "Tangier": 56
+      },
+      "expiryDate": "2026-02-28T00:00:00.000Z",
+      "expired": false,
+      "imageUrl": "https://img.freepik.com/premium-photo/bottle-perfume-with-gold-top-that-says-perfume_917213-131225.jpg",
+      "createdAt": "2026-02-21T15:48:22.135Z",
+      "id": "prod_1771688902135_i1lcwa03v"
     }
   ]
 }

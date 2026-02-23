@@ -58,6 +58,41 @@
       "imageUrl": "https://img.freepik.com/premium-photo/bottle-perfume-with-gold-top-that-says-perfume_917213-131225.jpg",
       "createdAt": "2026-02-21T15:48:22.135Z",
       "id": "prod_1771688902135_i1lcwa03v"
+    },
+    {
+      "name": "parfun0",
+      "price": 23,
+      "description": "",
+      "promo": {
+        "type": "none",
+        "value": 8
+      },
+      "stock": 12,
+      "unit": "piece",
+      "variants": [
+        {
+          "label": "0.25",
+          "stock": 5,
+          "price": 5
+        },
+        {
+          "label": "1",
+          "stock": 7,
+          "price": 7
+        }
+      ],
+      "deliveryPrices": {
+        "Casablanca": 5,
+        "Rabat": 7,
+        "Marrakech": 6,
+        "Fès": 78,
+        "Tangier": 56
+      },
+      "expiryDate": "2026-02-28T00:00:00.000Z",
+      "expired": false,
+      "imageUrl": "https://img.freepik.com/premium-photo/bottle-perfume-with-gold-top-that-says-perfume_917213-131225.jpg",
+      "createdAt": "2026-02-23T14:00:48.786Z",
+      "id": "prod_1771855248787_9t7uojdnh"
     }
   ]
 }

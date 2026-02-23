@@ -37,7 +37,7 @@
     },
     {
       "name": "parfun",
-      "price": 23,
+      "price": 230,
       "description": "",
       "promo": {
         "type": "special",
@@ -50,13 +50,14 @@
         "Casablanca": 5,
         "Rabat": 7,
         "Marrakech": 6,
-        "FÃ¨s": 78,
-        "Tangier": 56
+        "F�s": 0,
+        "Tangier": 56,
+        "FÃ¨s": 78
       },
       "expiryDate": "2026-02-28T00:00:00.000Z",
       "expired": false,
       "imageUrl": "https://img.freepik.com/premium-photo/bottle-perfume-with-gold-top-that-says-perfume_917213-131225.jpg",
-      "createdAt": "2026-02-21T15:48:22.135Z",
+      "createdAt": "2026-02-23T14:03:26.583Z",
       "id": "prod_1771688902135_i1lcwa03v"
     },
     {
@@ -85,7 +86,7 @@
         "Casablanca": 5,
         "Rabat": 7,
         "Marrakech": 6,
-        "F�s": 78,
+        "F�s": 78,
         "Tangier": 56
       },
       "expiryDate": "2026-02-28T00:00:00.000Z",
